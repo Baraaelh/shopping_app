@@ -1,0 +1,85 @@
+name: shopping_app
+description: A modern e-commerce shopping application built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Network & API
+  dio: ^5.4.1
+  retrofit: ^4.1.0
+
+  # Local Storage
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^9.0.0
+
+  # UI Components
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  carousel_slider: ^4.2.1
+  smooth_page_indicator: ^1.1.0
+  badges: ^3.1.2
+
+  # Forms & Validation
+  flutter_form_builder: ^10.0.0
+  form_builder_validators: ^11.0.0
+
+  # Icons
+  flutter_iconly: ^1.0.2
+  font_awesome_flutter: ^10.7.0
+
+  # Animations
+  lottie: ^3.1.0
+  animate_do: ^3.3.4
+
+  # Utils
+  intl: ^0.20.2
+  url_launcher: ^6.2.5
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.0
+
+  # Payment (UI only)
+  flutter_credit_card: ^4.0.1
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  retrofit_generator: ^8.1.0
+  json_serializable: ^6.7.1
+  json_annotation: ^4.9.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/images/products/
+  #   - assets/images/banners/
+  #   - assets/images/profile/
+  #   - assets/images/
+
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
